@@ -1,0 +1,46 @@
+.ranking-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #121212;
+  color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(255, 0, 0, 0.5);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.ranking-container h1 {
+  text-align: center;
+  color: #e10600; /* Vermelho Ferrari / F1 */
+  margin-bottom: 20px;
+}
+
+.ranking-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.ranking-table th {
+  background-color: #222;
+  color: #e10600;
+  padding: 12px;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.ranking-table td {
+  padding: 10px;
+  border-bottom: 1px solid #444;
+}
+
+.ranking-table tr:hover {
+  background-color: #1e1e1e;
+  transition: background-color 0.3s ease;
+}
+
+.error-message {
+  color: #ff4d4d;
+  text-align: center;
+  font-weight: bold;
+}
